@@ -1,0 +1,27 @@
+{
+  "name": "ESP32-MutexGuard",
+  "version": "0.1.0",
+  "description": "RAII mutex guard for FreeRTOS providing automatic mutex management and preventing lock leaks",
+  "keywords": ["mutex", "guard", "raii", "freertos", "esp32", "thread-safety", "synchronization", "cpp"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/packerlschupfer/ESP32-MutexGuard.git"
+  },
+  "authors": [
+    {
+      "name": "packerlschupfer",
+      "email": "packerlschupfer@noreply.github.com",
+      "maintainer": true
+    }
+  ],
+  "homepage": "https://github.com/packerlschupfer/ESP32-MutexGuard",
+  "license": "MIT",
+  "dependencies": {},
+  "frameworks": [
+    "espidf",
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ]
+}
